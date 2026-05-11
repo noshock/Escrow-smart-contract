@@ -52,6 +52,7 @@ Seller address is initialized
 Admin role is assigned
 Initial state becomes:
 AWAITING_PAYMENT
+
 2. Deposit Function
 
 Buyer deposits ETH into escrow.
@@ -69,6 +70,7 @@ After payment:
 State changes to:
 
 AWAITING_DELIVERY
+
 3. Confirm Delivery Function
 
 Buyer confirms successful delivery.
@@ -87,6 +89,7 @@ After confirmation:
 Seller receives payment
 Contract state becomes:
 COMPLETE
+
 4. Refund Function
 
 Admin can refund the buyer if the deal fails.
